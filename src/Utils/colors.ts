@@ -1,0 +1,61 @@
+export interface Colors {
+  white: string;
+  offWhite: string;
+  lightOffWhite: string;
+  translucentWhite: string
+  lightGray: string;
+  lightGrayBackground: string;
+  lightGrayBorder: string;
+  darkGrayBlue: string;
+  gray: string;
+  darkGray: string;
+  mediumGray: string;
+  slowGray: string;
+  black: string;
+  midleBlack: string;
+  shadowColor: string;
+  purple: string;
+  darkPurple: string;
+  lightPurple: string;
+  yellow: string;
+  lightYellow: string;
+  red: string;
+  lightRed: string;
+  lightBlue: string;
+  aquamarine: string;
+  skyBlue: string;
+  orange: string;
+  lightOrange: string;
+  lightGreen: string;
+}
+
+export const colors: Colors = {
+  white: "#FFFFFF",
+  offWhite: '#FFF7E8',
+  lightOffWhite: '#F6F7F9',
+  translucentWhite: '#ffffffcc',
+  lightGray: "#DDDDDD",
+  lightGrayBackground: "#F9FAFC",
+  lightGrayBorder: "#E4E4E4",
+  darkGrayBlue: "#86909C",
+  gray: "#797979",
+  darkGray: '#4E5969',
+  mediumGray: '#D9D9D9',
+  slowGray: "#F2F3F5",
+  black: "#000000",
+  midleBlack: "#1D2129",
+  shadowColor: "#00000026",
+  purple: "#9E6DF7",
+  darkPurple: "#764BC4",
+  lightPurple: "#b691fa",
+  yellow: "#FFCF8B",
+  lightYellow: "#FAE18A",
+  red: "#E74C3C",
+  lightRed: "#FB9383",
+  lightBlue: "#C9CDD4",   
+  aquamarine: "#00A884", 
+  skyBlue: '#246BFD',
+  orange: '#E3B634',
+  lightOrange: "#FBCB83",
+  lightGreen: "#C2E9A5",
+};
